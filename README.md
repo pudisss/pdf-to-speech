@@ -1,25 +1,4 @@
-<<<<<<< HEAD
-It's a pdf to speech package that I'm planning to upload it to the pip package. 
 
-Package used
-1. pypdf
-2. os
-3. time
-4. pyttsx3
-5. platform
-6. psutil
-
-
-
-So this python package is object-oriented type so if you want to use the module you have to create a variable that will store the instance of the class.
-The instance will take about 3 attributes
-1. File name
-2. Page Number - The exact page you want to get
-3. incwd - True or False. If the pdf that you want to work with is in the current working directory or not. Which for me I recommend that you should move your pdf file into your directory
-   because if don't, it will take a longer time that normal because the program will run through all of your files in your computer just to find your file.
-
-
-When you created your instance. Call the pdf_to_speech() function and then let the magic begins.
 =======
 # PdfToSpeech package
 My package allows you to read pdf and convert those text into speech.
@@ -50,4 +29,17 @@ pdf = PdfToSpeech(filename="filename.pdf", pageNumber=10, incwd=True)
 
 pdf.pdf_to_speech()
 ```
->>>>>>> 6013e12 (pypdftospeech 0.2)
+Arguments.
+1. filename - The name of the pdf file
+2. pageNumber - The page number that you want the module to read from
+3. incwd - Is the file in your working directory?. 
+
+## Features
+1. Read your pdf file and then translate it to a speech, output by your computer speaker
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
